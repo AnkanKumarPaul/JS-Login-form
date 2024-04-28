@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="form.css">
+    <script>
+
+        function validateForm() {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+
+            if (email == "") {
+                alert("enter email");
+                return false;
+            }
+
+            if (password == "") {
+                alert("enter password");
+                return false;
+            }
+
+            alert("sumit done")
+        }
+    </script>
+</head>
+
+<body>
+    <form action="" onsubmit="validateForm()">
+
+        <h1>Login Form</h1>
+        <br>
+        Email: <input type="email" name="email" id="email" title="email" placeholder="Enter Mail"> <br>
+        <br>
+        Password: <input type="password" name="password" id="password" title="password" placeholder="Enter Password">
+        <br>
+        <br>
+        <button type="submit" title="submit">SUBMIT</button>
+        <br>
+    </form>
+</body>
+
+</html>

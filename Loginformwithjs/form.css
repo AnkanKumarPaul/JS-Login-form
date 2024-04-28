@@ -1,0 +1,45 @@
+body {
+    background-image: url(bgpic.png);
+    background-size: cover;
+    color: blue;
+}
+
+form {
+    background-color: #cdff04a1;
+    width: 45%;
+    margin-left: 27%;
+    margin-top: 15%;
+    /* padding: 10px 50px; */
+    border: solid;
+    border-color: blue;
+    text-align: center;
+    border-radius: 4%;
+    padding: 10px;
+}
+
+h1 {
+    color: red;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+    background-color: rgb(146, 214, 79);
+    color: white;
+    border-color: blue;
+    border-radius: 15px;
+    /* border: solid; */
+    font-size: 20px;
+    margin-bottom: 5%;
+    text-decoration: none;
+    /* margin-left:30%; */
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+button:hover {
+    border-color: red;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
